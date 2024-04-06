@@ -1,0 +1,91 @@
+@font-face {
+	font-family: 'Chivo';
+	src: url('fonts/Chivo/Chivo-Regular.eot');
+	src: url('fonts/Chivo/Chivo-Regular.eot?#iefix') format('embedded-opentype');
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'Chivo';
+	src: url('fonts/Chivo/Chivo-Thin.eot');
+	src: url('fonts/Chivo/Chivo-Thin.eot?#iefix') format('embedded-opentype');
+	font-style: normal;
+	font-weight: 100;
+}
+
+h1, h2{
+    font-family:'Chivo';
+    white-space: nowrap;
+}
+
+h2{
+    font-weight: 100;
+}
+
+.contactButtonsInnerPlaceHolder
+{
+    display:flex;
+    flex-direction: row;
+    flex-flow: row;
+    align-items: center;
+}
+
+.boton
+{
+    margin: 0.5em;
+    color:rgb(255, 222, 222);
+    transition: 0.2s;
+    width: 2em;
+    height: 2em;
+}
+
+.boton-disabled
+{
+    margin: 0.5em;
+    color:rgb(117, 117, 117);
+    transition: 0.2s;
+    width: 2em;
+    height: 2em;
+}
+
+.boton:hover
+{
+    color:rgb(255, 175, 30);
+    transform:translateY(-0.3em);
+}
+
+body
+{
+    background-color:rgb(25, 25, 50); 
+    color:rgb(255, 222, 222); 
+    display:flex; 
+    align-items:center; 
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-grow: 1;
+}
+
+.titleHolder
+{
+    display:flex; 
+    flex-direction:rows; 
+    align-items: center; 
+    height:5em;
+}
+
+.videoHolder
+{
+    display:flex;
+    max-height: 320px;
+    max-width:100%;
+    margin: 2em;
+}
+
+.contactButtonsPlaceHolder
+{
+    display:flex;
+    flex-direction: column;
+    flex-flow: column;
+    align-items: center;
+}
